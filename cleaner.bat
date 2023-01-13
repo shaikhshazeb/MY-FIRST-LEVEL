@@ -7,3 +7,6 @@ del /f /s /q %windir%\prefetch\*.* rd /s /q %windir%\temp & md %windir%\temp
 echo clear system garbage is complete! 
 
 pause
+
+
+# this code is stands for the any computer hazardous files deleted.
