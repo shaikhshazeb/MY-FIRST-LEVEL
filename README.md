@@ -67,3 +67,26 @@ enter the number marks
 98
 253
 your percentage is =50.0
+
+//question (given the answer)
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int a=10;
+        if(a==11)
+        
+             System.out.println("i am 11");
+        
+        else
+        
+             System.out.println("i am not 11");
+        
+    }
+}
+
+//output
+
+java -cp /tmp/SMy7i9nbzm HelloWorld
+i am not 11
