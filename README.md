@@ -138,4 +138,80 @@ enter your case
 5
 THURSDAY
 
-// question(
+// question(print 1 to 10 natural number )
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int i=1;
+        while(i<=10){
+        System.out.println(i);
+        i++;
+    }
+ }
+}
+
+//output
+
+java -cp /tmp/0zzYM556mB HelloWorld
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+//question(print first n natural numbers using do while loops)
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+      int a=1;
+      do{
+          System.out.println(a);
+          a++;
+          
+     }while(a<=10);
+    
+ }
+}
+
+//output
+
+java -cp /tmp/0zzYM556mB HelloWorld
+12
+3
+4
+5
+6
+7
+8
+9
+10
+//question(print natural numbers in reverse order)
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+     
+     for(int i=5;i!=0;i--){
+         System.out.println(i);
+     }
+          
+    
+    
+ }
+}
+//output
+
+java -cp /tmp/0zzYM556mB HelloWorld
+5
+4
+3
+2
+1
+
