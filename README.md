@@ -214,4 +214,25 @@ java -cp /tmp/0zzYM556mB HelloWorld
 3
 2
 1
+//question(print the design)
+
+class HelloWorld {
+    public static void main(String[] args) {
+   int n=4;
+   for(int i=n;i>0;i--){
+       for(int j=0;j<i;j++){
+    System.out.print("*");
+      }
+  System.out.print("\n");
+      }
+   }
+}
+
+//output
+
+java -cp /tmp/ONGYufE269 HelloWorld
+****
+***
+**
+*
 
