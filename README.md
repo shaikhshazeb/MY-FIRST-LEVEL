@@ -235,4 +235,58 @@ java -cp /tmp/ONGYufE269 HelloWorld
 ***
 **
 *
+lass HelloWorld {
+    public static void main(String[] args) {
+        int n=4;
+        for(int i=n;i>0;i--){
+            for(int j=0;j<i;j++){
+                 System.out.print("*");
+            }
+        System.out.print("\n");
+        }
+            
+    }
+}
+
+java -cp /tmp/8DZtRb8sZW HelloWorld
+****
+***
+**
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=1;
+        for(int i=n;i<5;i++){
+            for(int j=0;j<i;j++){
+                 System.out.print("*");
+            }
+        System.out.print("\n");
+        }
+            
+    }
+}
+
+java -cp /tmp/8DZtRb8sZW HelloWorld
+*
+**
+***
+****
+//question (sum of n even numbers )
+
+class HelloWorld {
+    public static void main(String[] args) {
+       
+       int sum=0;
+       int n=4;
+       for(int i=0;i<n;i++){
+           sum= sum+ (2*i);
+       }
+           System.out.print("sum of even numbers  : ");
+            System.out.println(sum);
+    }
+}
+
+//output  java -cp /tmp/8DZtRb8sZW HelloWorld
+sum of even numbers  : 12
+*
 
