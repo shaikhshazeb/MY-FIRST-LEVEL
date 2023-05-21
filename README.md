@@ -288,5 +288,54 @@ class HelloWorld {
 
 //output  java -cp /tmp/8DZtRb8sZW HelloWorld
 sum of even numbers  : 12
-*
+
+//question(print 10 table)
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int n=10;
+        for(int i=1;i<=n;i++){
+            System.out.printf("%d X %d = %d",n,i,n*i);
+        }
+        System.out.println("\n");
+        System.out.println("your table is ready");
+    }
+}
+
+//output
+
+java -cp /tmp/fGBe7g1SQn HelloWorld
+10 X 1 = 10
+10 X 2 = 20
+10 X 3 = 30
+10X 4 = 40
+10 X 5 = 50
+10 X 6 = 60
+10 X 7 = 70
+10 X 8= 80
+10 X 9 = 90
+
+your table is ready
+
+//question(factoral of a given number)
+class HelloWorld {
+    public static void main(String[] args) {
+       int n=10;
+       int i=1;
+      int factorial=1;
+      
+      while(i<=n){
+          factorial *= i;
+          i++;
+      }
+    
+         System.out.println(factorial);
+    }
+}
+
+//output
+
+java -cp /tmp/E1lWydqeqW HelloWorld
+3628800
 
