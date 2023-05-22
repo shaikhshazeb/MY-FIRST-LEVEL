@@ -338,4 +338,107 @@ class HelloWorld {
 
 java -cp /tmp/E1lWydqeqW HelloWorld
 3628800
+// ARRAYS IN JAVA 
 
+class HelloWorld {
+    public static void main(String[] args) {
+      int[]marks={88,98,78,34,32,36,81};
+      System.out.println(marks.length);
+      System.out.println(marks[4]);
+    }
+}
+//output 
+
+java -cp /tmp/gw6HGYMR3d HelloWorld
+7
+32
+//storing anumber using for loops in java
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+      int[]marks={88,98,78,34,32,36,81};
+      for(int i=0;i<=marks.length;i++){
+          System.out.println(marks[i]);
+      }
+      
+    }
+}
+
+//output
+
+java -cp /tmp/gw6HGYMR3d HelloWorld
+88
+98
+78
+34
+32
+36
+81
+
+//storing a number using each for loops in java 
+
+class HelloWorld {
+    public static void main(String[] args) {
+      int[]marks={88,98,78,34,32,36,81};
+      for(int element:marks){
+          System.out.println(element);
+      }
+      
+    }
+}
+
+//output
+
+java -cp /tmp/gw6HGYMR3d HelloWorld
+88
+98
+78
+34
+32
+36
+81
+ //arrays in multidimension arrays(2d arrays in java)
+ 
+ class HelloWorld {
+    public static void main(String[] args) {
+     int [][] flats = new int [2][3];
+     flats[0][0]=101;
+     flats[0][1]=102;
+     flats[0][2]=103;
+     flats[1][0]=201;
+     flats[1][1]=202;
+     flats[1][2]=203;
+     for(int i=0;i<flats.length;i++){
+         for(int j=0;j<flats[i].length;j++){
+             System.out.print(flats[i][j]);
+         }
+     }System.out.print("  ");
+      System.out.print(" ");
+    }
+}
+//output
+
+java -cp /tmp/gw6HGYMR3d HelloWorld
+101 102 103 
+201 202 203   
+
+//question (sum 5 array eelmnts in java)
+
+public class HelloWorld{
+
+     public static void main(String []args){
+        float [] marks={11.2f,33.2f,44.3f,46.7f,33.9f};
+        float sum=0;
+        for(float element:marks){
+            sum= sum + element;
+            
+        }
+     
+         System.out.println(" th e value of sum is  :"  +sum);
+     }
+}
+
+//output
+
+th e value of sum is  :169.29999
