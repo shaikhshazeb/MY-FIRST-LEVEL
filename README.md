@@ -442,3 +442,58 @@ public class HelloWorld{
 //output
 
 th e value of sum is  :169.29999
+
+
+// java methods
+
+
+class HelloWorld {
+ 
+static int logic(int x,int y) {
+    int z;
+    if(x>y){
+        z=x+y;
+    }
+  else{
+      z=x*y;
+  }
+  return z;  
+}   
+    
+    
+    public static void main(String[] args) {
+        int a=10;
+        int b=3;
+        int c;
+       // if(a>b){
+         //   c=a+b;
+       // }
+    
+       // else{
+        //    c=a*b;
+       // }
+    c=logic(a,b);
+        System.out.println(c);
+    }
+    
+}
+
+//output
+
+java -cp /tmp/bqTdHWrIJt HelloWorld
+13
+// meyhod overloading in java
+
+class HelloWorld {
+    static void iamsibna(){
+         System.out.println("Hello, World!");
+    }
+    
+    public static void main(String[] args) {
+        iamsibna();
+    }
+}
+//output
+
+java -cp /tmp/GzG6QzCdmO HelloWorld
+Hello, World!
