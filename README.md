@@ -1,499 +1,269 @@
-//question ( add two nuber using input from the user)
-import java.util.Scanner;
-class Main {
-    public static void main(String[] args) {
-        System.out.println("taking input from the user");
-        Scanner s=new Scanner(System.in);
-        System.out.println("enter the number 1");
-        int a=s.nextInt();
-        System.out.println("enter the number 1");
-        int b=s.nextInt();
-        int sum=a+b;
-        System.out.println("adding of two numbers");
-        System.out.println(sum);
-    }
-}
+/*CREATE A AADHAR CARD USING HTML AND CSS*/ 
+/*code*/
+<!DOCTYPE html>
+<html lang="en">
 
-//out put 
-java -cp /tmp/MYw6mhD0EH Main
-taking input from the userenter the number 1
-22
-enter the number 1
-33
-adding of two numbers
-55
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhar card </title>
+    <style>
+        #h1 {
+            background-color: orange;
+            color: white;
+            width: 400px;
 
 
-// student percentage using input from the user
-
-
-
-import java.util.Scanner;
-class Main {
-    public static void main(String[] args) {
-        System.out.println("taking input from the user");
-        Scanner s=new Scanner(System.in);
-        int total=100;
-        System.out.println("enter the number marks");
-        int a=s.nextInt();
-        System.out.println("enter the number marks");
-        int b=s.nextInt();
-        System.out.println("enter the number marks");
-        int c=s.nextInt();
-        System.out.println("enter the number marks");
-        int d=s.nextInt();
-        System.out.println("enter the number marks");
-        int e=s.nextInt();
-        int sum=a+b+c+d+e;
-        System.out.println(sum);
-        float percentage=sum*100/500;
-        System.out.println("your percentage is =" +percentage);
         }
-}
 
-//output
+        #h2 {
+            background-color: white;
+            color: green;
+            width: 400px;
 
-java -cp /tmp/MYw6mhD0EH Main
-taking input from the user
-enter the number marks
-23
-enter the number marks
-44
-enter the number marks
-54
-enter the number marks
-34
-enter the number marks
-98
-253
-your percentage is =50.0
-
-//question (given the answer)
-
-
-
-class HelloWorld {
-    public static void main(String[] args) {
-        int a=10;
-        if(a==11)
-        
-             System.out.println("i am 11");
-        
-        else
-        
-             System.out.println("i am not 11");
-        
-    }
-}
-
-//output
-
-java -cp /tmp/SMy7i9nbzm HelloWorld
-i am not 11
-
-//question(to find out the day of the week)
-
-import java.util.Scanner;
-class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("enter your case");
-        Scanner sc=new Scanner(System.in);
-        int week=sc.nextInt();
-        switch(week){
-            case 1:
-                System.out.println("SUNDAY");
-                break;
-              case 2:
-                System.out.println("MONDAY");
-                break;
-                case 3:
-                System.out.println("TUESDAY");
-                break;
-                case 4:
-                System.out.println("WEDNESDAY");
-                break;
-                case 5:
-                System.out.println("THURSDAY");
-                break;
-                case 6:
-                System.out.println("FRIDAY");
-                break;
-                case 7:
-                System.out.println("SATURDAY");
-                break;
-                default :
-                System.out.println("sorry not found");
-    
         }
-    }
-}
 
-//output
-java -cp /tmp/0C8tnNsawZ HelloWorld
-enter your case
-9
-sorry not found
-java -cp /tmp/0C8tnNsawZ HelloWorld
-enter your case
-5
-THURSDAY
-
-// question(print 1 to 10 natural number )
-
-class HelloWorld {
-    public static void main(String[] args) {
-        int i=1;
-        while(i<=10){
-        System.out.println(i);
-        i++;
-    }
- }
-}
-
-//output
-
-java -cp /tmp/0zzYM556mB HelloWorld
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-//question(print first n natural numbers using do while loops)
-
-
-
-class HelloWorld {
-    public static void main(String[] args) {
-      int a=1;
-      do{
-          System.out.println(a);
-          a++;
-          
-     }while(a<=10);
-    
- }
-}
-
-//output
-
-java -cp /tmp/0zzYM556mB HelloWorld
-12
-3
-4
-5
-6
-7
-8
-9
-10
-//question(print natural numbers in reverse order)
-
-
-
-class HelloWorld {
-    public static void main(String[] args) {
-     
-     for(int i=5;i!=0;i--){
-         System.out.println(i);
-     }
-          
-    
-    
- }
-}
-//output
-
-java -cp /tmp/0zzYM556mB HelloWorld
-5
-4
-3
-2
-1
-//question(print the design)
-
-class HelloWorld {
-    public static void main(String[] args) {
-   int n=4;
-   for(int i=n;i>0;i--){
-       for(int j=0;j<i;j++){
-    System.out.print("*");
-      }
-  System.out.print("\n");
-      }
-   }
-}
-
-//output
-
-java -cp /tmp/ONGYufE269 HelloWorld
-****
-***
-**
-*
-lass HelloWorld {
-    public static void main(String[] args) {
-        int n=4;
-        for(int i=n;i>0;i--){
-            for(int j=0;j<i;j++){
-                 System.out.print("*");
-            }
-        System.out.print("\n");
+        #h3 {
+            background-color: green;
+            color: white;
+            width: 400px;
         }
-            
-    }
-}
 
-java -cp /tmp/8DZtRb8sZW HelloWorld
-****
-***
-**
-
-class HelloWorld {
-    public static void main(String[] args) {
-        int n=1;
-        for(int i=n;i<5;i++){
-            for(int j=0;j<i;j++){
-                 System.out.print("*");
-            }
-        System.out.print("\n");
+        #h4 {
+            margin-left: 50px;
         }
-            
-    }
-}
 
-java -cp /tmp/8DZtRb8sZW HelloWorld
-*
-**
-***
-****
-//question (sum of n even numbers )
-
-class HelloWorld {
-    public static void main(String[] args) {
-       
-       int sum=0;
-       int n=4;
-       for(int i=0;i<n;i++){
-           sum= sum+ (2*i);
-       }
-           System.out.print("sum of even numbers  : ");
-            System.out.println(sum);
-    }
-}
-
-//output  java -cp /tmp/8DZtRb8sZW HelloWorld
-sum of even numbers  : 12
-
-//question(print 10 table)
-
-
-class HelloWorld {
-    public static void main(String[] args) {
-        int n=10;
-        for(int i=1;i<=n;i++){
-            System.out.printf("%d X %d = %d",n,i,n*i);
+        #h5 {
+            margin-right: 370px;
         }
-        System.out.println("\n");
-        System.out.println("your table is ready");
-    }
-}
 
-//output
-
-java -cp /tmp/fGBe7g1SQn HelloWorld
-10 X 1 = 10
-10 X 2 = 20
-10 X 3 = 30
-10X 4 = 40
-10 X 5 = 50
-10 X 6 = 60
-10 X 7 = 70
-10 X 8= 80
-10 X 9 = 90
-
-your table is ready
-
-//question(factoral of a given number)
-class HelloWorld {
-    public static void main(String[] args) {
-       int n=10;
-       int i=1;
-      int factorial=1;
-      
-      while(i<=n){
-          factorial *= i;
-          i++;
-      }
-    
-         System.out.println(factorial);
-    }
-}
-
-//output
-
-java -cp /tmp/E1lWydqeqW HelloWorld
-3628800
-// ARRAYS IN JAVA 
-
-class HelloWorld {
-    public static void main(String[] args) {
-      int[]marks={88,98,78,34,32,36,81};
-      System.out.println(marks.length);
-      System.out.println(marks[4]);
-    }
-}
-//output 
-
-java -cp /tmp/gw6HGYMR3d HelloWorld
-7
-32
-//storing anumber using for loops in java
-
-
-class HelloWorld {
-    public static void main(String[] args) {
-      int[]marks={88,98,78,34,32,36,81};
-      for(int i=0;i<=marks.length;i++){
-          System.out.println(marks[i]);
-      }
-      
-    }
-}
-
-//output
-
-java -cp /tmp/gw6HGYMR3d HelloWorld
-88
-98
-78
-34
-32
-36
-81
-
-//storing a number using each for loops in java 
-
-class HelloWorld {
-    public static void main(String[] args) {
-      int[]marks={88,98,78,34,32,36,81};
-      for(int element:marks){
-          System.out.println(element);
-      }
-      
-    }
-}
-
-//output
-
-java -cp /tmp/gw6HGYMR3d HelloWorld
-88
-98
-78
-34
-32
-36
-81
- //arrays in multidimension arrays(2d arrays in java)
- 
- class HelloWorld {
-    public static void main(String[] args) {
-     int [][] flats = new int [2][3];
-     flats[0][0]=101;
-     flats[0][1]=102;
-     flats[0][2]=103;
-     flats[1][0]=201;
-     flats[1][1]=202;
-     flats[1][2]=203;
-     for(int i=0;i<flats.length;i++){
-         for(int j=0;j<flats[i].length;j++){
-             System.out.print(flats[i][j]);
-         }
-     }System.out.print("  ");
-      System.out.print(" ");
-    }
-}
-//output
-
-java -cp /tmp/gw6HGYMR3d HelloWorld
-101 102 103 
-201 202 203   
-
-//question (sum 5 array eelmnts in java)
-
-public class HelloWorld{
-
-     public static void main(String []args){
-        float [] marks={11.2f,33.2f,44.3f,46.7f,33.9f};
-        float sum=0;
-        for(float element:marks){
-            sum= sum + element;
-            
+        #h6 {
+            margin-right: 215px;
         }
-     
-         System.out.println(" th e value of sum is  :"  +sum);
-     }
-}
 
-//output
+        #h7 {
+            margin-right: 175px;
+        }
 
-th e value of sum is  :169.29999
+        #h8 {
+            margin-right: 240px;
+        }
+
+        #h9 {
+            margin-right: 100px;
+        }
+
+        #h10 {
+            margin-right: 70px;
+        }
+
+        #h11 {
+            margin-right: 310px;
+        }
+
+        #h12 {
+            margin-right: 180px;
+        }
+
+        .img1 {
+            width: 250px;
+            height: 50px;
+            margin-right: 120px;
+        }
+
+        .img2 {
+            width: 120px;
+            height: 120px;
+            margin-left: 240px;
+
+        }
+
+        #h13 {
+            margin-right: 50px;
+            font-size: 20px;
+
+        }
+
+        #h14 {
+            margin-right: 40px;
+            font-size: 30px;
+        }
+
+        #h15 {
+            margin-right: 40px;
+            font-size: 20px;
+        }
+
+        #h16 {
+            margin-right: 40px;
+            font-size: 30px;
+        }
+
+        #h17 {
+            background-color: orange;
+            color: white;
+            width: 400px;
 
 
-// java methods
+        }
+
+        #h18 {
+            background-color: white;
+            color: green;
+            width: 400px;
+
+        }
+
+        #h19 {
+            background-color: green;
+            color: white;
+            width: 400px;
+        }
+
+        .img3 {
+            width: 150x;
+            height: 150px;
+            margin-right: 120px;
+            margin-top: -190px;
+        }
+
+        #h20 {
+            margin-left: 80px;
+        }
+
+        #h21 {
+            margin-left: 120px;
+        }
+
+        #h22 {
+            margin-left: 90px;
+            font-size: 14px;
+
+        }
+
+        #h23 {
+            margin-left: 2px;
 
 
-class HelloWorld {
- 
-static int logic(int x,int y) {
-    int z;
-    if(x>y){
-        z=x+y;
-    }
-  else{
-      z=x*y;
-  }
-  return z;  
-}   
-    
-    
-    public static void main(String[] args) {
-        int a=10;
-        int b=3;
-        int c;
-       // if(a>b){
-         //   c=a+b;
-       // }
-    
-       // else{
-        //    c=a*b;
-       // }
-    c=logic(a,b);
-        System.out.println(c);
-    }
-    
-}
+        }
 
-//output
+        .img4 {
+            width: 90px;
+            height: 90px;
+            margin-right: 10px;
 
-java -cp /tmp/bqTdHWrIJt HelloWorld
-13
-// meyhod overloading in java
+        }
 
-class HelloWorld {
-    static void iamsibna(){
-         System.out.println("Hello, World!");
-    }
-    
-    public static void main(String[] args) {
-        iamsibna();
-    }
-}
-//output
+        #h24 {
+            margin-right: 40px;
+            font-size: 30px;
+        }
 
-java -cp /tmp/GzG6QzCdmO HelloWorld
-Hello, World!
+        #h25 {
+            margin-right: 20px;
+            font-size: 30px;
+            color: red;
+            margin-top: -30px;
+        }
+
+        #h26 {
+            margin-right: 40px;
+            font-size: 25px;
+        }
+
+        center {
+            border: 10px solid rgb(234, 234, 234);
+            /* background: linear-gradient(to bottom, #000000 0%, #ffffff 100%); */
+            border-style: inset;
+            width: 30%;
+            margin: auto;
+        }
+
+        body {
+            /* color: antiquewhite; */
+        }
+
+        span {
+            color: #000000;
+        }
+
+        big {
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+
+        <br>
+        <img src="https://th.bing.com/th/id/OIP.WQROYssZeEHEzCTxYDjDuwHaHa?w=213&h=213&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+            alt="kk" width="8%" style="margin-left:30px;position: absolute;">
+        <img src="https://th.bing.com/th?id=OSK.e3e94845ae87804449cc03df0004c403&w=188&h=132&c=7&o=6&dpr=1.3&pid=SANGAM"
+            alt="kk" width="32%" style="margin-left:300px;">
+        <br><br><br>
+        <div id="h1">
+            भारत सरकार
+        </div>
+        <div id="h2">
+            Unique Identification Authority Of India
+        </div>
+        <div id="h3">
+            Goverment Of India
+        </div>
+        <div id="h4">
+            <p>नोडविनयच क्रमान्क /Enrollment No 1235/4544/6663</p>
+        </div>
+        <div id="h5">To,</div>
+        <div id="h6"> शेख शाज़ेब शमशीर अहमद</div>
+        <div id="h7"> Shaikh Shazeb Shamshir Ahmed</div>
+        <div id="h8"> S/O : Shamshir Shaikh</div>
+        <div id="h9"> Room no-204 ,
+            Wing C/2 , Tanwar Complex </div>
+        <div id="h10">Near Tanwar NagarKausa Mumbra Thane 400612</div>
+        <div id="h11">9082918919</div> <br> <br> <br>
+        <div id="h12">Ref 321/23H/987654/765432/P </div> <br><br>
+        <img src="https://tse3.mm.bing.net/th?id=OIP.1bIYj46aO6guRb_b0nuxHAHaC4&pid=ImgDet&rs=1" alt="img"
+            class="img1"><br><br>
+        <img src="https://makeqrcodenow.com/wp-content/uploads/2021/05/qr-code-example-savevideonow-1024x1024.png"
+            alt="img2" class="img2">
+        <div id="h13">आपला आधार क्रमान्क/ Your Aadhar No .:</div>
+        <div id="h14">
+            <pre><b>5544  2214   8745</b></pre>
+        </div>
+        <div id="h15">
+            <pre><b><u>आधार - सामान्य मनसाचा अधिकार</u></b></pre>
+        </div>
+        <div id="h16">&nbsp;&nbsp;&nbsp;&nbsp; &#9986;----------------------------------</div>
+        <div id="h17">
+            भारत सरकार
+        </div>
+        <div id="h18">
+            Unique Identification Authority Of India
+        </div>
+        <div id="h19">
+            Goverment Of India
+        </div> <br>
+        <span>
+            <div id="h20"> शेख शाज़ेब शमशीर अहमद</div>
+            <div id="h21"> Shaikh Shazeb Shamshir Ahmed</div>
+            <div id="h22">जनम वर्ष / Year Of Birth : 2004</div>
+            <div id="h23">पुरूष / Male</div>
+            <img src="https://st4.depositphotos.com/15648834/23779/v/1600/depositphotos_237795804-stock-illustration-unknown-person-silhouette-profile-picture.jpg"
+                alt="ooo" class="img3">
+            <img src="https://makeqrcodenow.com/wp-content/uploads/2021/05/qr-code-example-savevideonow-1024x1024.png"
+                alt="img4" class="img4">
+            <div id="h24">
+                <pre><b>5544  2214   8745</b></pre>
+            </div>
+            <div id="h25"> <b>______________________________</b></div>
+            <div id="h26">
+                <pre><b><big>आधार</big> - सामान्य मनसाचा अधिकार</b></pre>
+            </div>
+        </span>
+
+    </center>
+</body>
+
+</html>
